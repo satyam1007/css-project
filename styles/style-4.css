@@ -1,0 +1,597 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.homepage-1 {
+  width: 100%;
+  min-height: 400px;
+  background-image: url("/images/img-5.jpeg");
+  opacity: 0.75;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homepage-1 .home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage-1 .home ul {
+  display: flex;
+  background-color: transparent;
+}
+
+.homepage-1 .home ul li {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding: 13px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.homepage-1 .home ul li:hover {
+  background-color: #ccc;
+}
+
+.homepage-1 .home ul i {
+  margin-right: 3px;
+  color: #777;
+}
+
+.homepage-1 .home ul i:hover {
+  color: black;
+}
+
+.homepage-1 .home ul li a {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #777;
+}
+
+.homepage-1 .home ul li a:hover {
+  color: black;
+}
+
+.Search {
+  padding-right: 15px;
+  padding-left: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #777;
+  display: block;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.Search:hover {
+  background-color: red;
+  color: white;
+}
+
+.logo {
+  margin-left: 440px;
+  margin-top: 130px;
+}
+
+.logo h1 {
+  text-align: center;
+  font-size: 23px;
+  letter-spacing: 8px;
+  font-weight: 500;
+  font-family: "Lato", sans-serif;
+  background-color: black;
+  width: 400px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  color: white;
+}
+
+.homepage-2 .ABOUT {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #777;
+}
+
+.homepage-2 .ABOUT h2 {
+  font-weight: 400;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.homepage-2 .ABOUT p {
+  margin-left: 130px;
+  width: 1000px;
+  margin-top: 30px;
+  line-height: 1.8;
+}
+
+.name {
+  font-family: "Lato", sans-serif;
+  color: #777;
+}
+
+.girl-image-2 {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.girl-image-2:hover {
+  opacity: 1;
+}
+
+.name i {
+  margin-right: 15px;
+}
+
+.name h4 {
+  display: flex;
+  margin-left: 350px;
+  margin-top: 50px;
+  font-weight: 400;
+}
+
+.image-2 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.image-2 p {
+  width: 470px;
+  line-height: 1.8;
+  position: relative;
+  left: 50px;
+  bottom: 50px;
+}
+
+.hobbys h3 {
+  text-align: center;
+  font-weight: 400;
+}
+
+.hobbys p {
+  letter-spacing: 10px;
+  margin-left: 207px;
+  padding-top: 100px;
+}
+
+.hobbys .hobby-1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.hobbys .hobby-1 .percent-one {
+  background-color: #616161;
+  color: white;
+  height: 25px;
+  width: 60%;
+  text-align: center;
+  padding-top: 7px;
+}
+
+.hobbys .hobby-1 .last-1 {
+  background-color: rgb(235, 234, 234);
+  height: 32px;
+  width: 100px;
+}
+
+.hobbys-2 p {
+  letter-spacing: 10px;
+  margin-left: 207px;
+  padding-top: 25px;
+}
+
+.hobbys-2 .hobby-2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.hobbys-2 .hobby-2 .percent-two {
+  background-color: #616161;
+  color: white;
+  height: 25px;
+  width: 55%;
+  text-align: center;
+  padding-top: 7px;
+}
+
+.hobbys-2 .hobby-2 .last-2 {
+  background-color: rgb(235, 234, 234);
+  height: 32px;
+  width: 165px;
+}
+
+.hobbys-3 p {
+  letter-spacing: 10px;
+  margin-left: 207px;
+  padding-top: 25px;
+}
+
+.hobbys-3 .hobby-3 {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.hobbys-3 .hobby-3 .percent-three {
+  background-color: #616161;
+  color: white;
+  height: 25px;
+  width: 47%;
+  text-align: center;
+  padding-top: 7px;
+}
+
+.hobbys-3 .hobby-3 .last-3 {
+  background-color: rgb(235, 234, 234);
+  height: 32px;
+  width: 265px;
+}
+
+.partners {
+  font-family: "Lato", sans-serif;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #616161;
+  height: 130px;
+  margin-top: 100px;
+}
+
+.partners .partner-1 .span-1 {
+  font-size: 25px;
+  color: white;
+}
+
+.partners .partner-1 .span-2 {
+  color: white;
+}
+
+.image-3 {
+  width: 100%;
+  background-image: url(../img-6.jpeg);
+  background-attachment: scroll;
+  min-height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  bottom: 100px;
+}
+
+.image-3 h1 {
+  text-align: center;
+  padding-top: 160px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  letter-spacing: 12px;
+  color: white;
+}
+
+.homepage-3 {
+  font-family: "Lato", sans-serif;
+  color: #777;
+  font-weight: 400;
+  text-align: center;
+}
+
+.homepage-3 h1 {
+  font-size: 25px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.homepage-3 p {
+  line-height: 1.5;
+}
+
+.homepage-3 .Animal-images {
+  display: flex;
+  justify-content: center;
+}
+
+.homepage-3 .Animal-images-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.homepage-3 .Animal-images .image-1 {
+  padding-top: 50px;
+  padding-left: 9px;
+  cursor: pointer;
+}
+
+.homepage-3 .Animal-images .image-1:hover {
+  opacity: 0.6;
+}
+
+.homepage-3 .Animal-images-2 .image-1 {
+  padding-top: 10px;
+  padding-left: 9px;
+  cursor: pointer;
+}
+
+.homepage-3 .Animal-images-2 .image-1:hover {
+  opacity: 0.6;
+}
+
+.btn-1 {
+  font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+  height: 50px;
+  width: 140px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-1:hover {
+  background-color: #ccc;
+}
+
+.image-4 {
+  width: 100%;
+  background-image: url(../img-7.jpeg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  position: relative;
+  bottom: 100px;
+  opacity: 0.75;
+}
+
+.image-4 h1 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 11px;
+  padding-top: 170px;
+  color: white;
+}
+
+.homepage-4 {
+  height: 20vh;
+  color: #777;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+.homepage-4 h2 {
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.contact {
+  display: flex;
+  margin-left: 200px;
+}
+
+.contact .location {
+  color: #777;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.contact .location .h3-1 {
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.contact .location h3 i {
+  margin-right: 20px;
+}
+
+.contact .location h3 i:hover {
+  color: black;
+}
+
+.contact .location p {
+  margin-top: 15px;
+}
+
+.contact .location p i {
+  font-size: 13px;
+}
+
+.contact .location #input-1 {
+  margin-top: 15px;
+  width: 250px;
+  height: 35px;
+}
+
+.contact .location #input-2 {
+  margin-top: 15px;
+  width: 250px;
+  height: 35px;
+}
+
+.contact .location #input-3 {
+  margin-top: 15px;
+  width: 510px;
+  height: 35px;
+}
+
+.btn-2 {
+  height: 45px;
+  width: 165px;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  margin-left: 353px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn-2:hover {
+  background-color: #ccc;
+  color: black;
+}
+
+.btn-2 i {
+  margin-right: 5px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #777;
+  width: 100%;
+  height: 40vh;
+}
+
+.footer:hover {
+  background-color: black;
+}
+
+.footer .btn-3 {
+  border: none;
+  height: 45px;
+  width: 135px;
+  margin-top: 80px;
+  cursor: pointer;
+}
+
+.footer .btn-3:hover {
+  background-color: #ccc;
+}
+
+.footer i {
+  color: white;
+  margin-top: 20px;
+  letter-spacing: 4px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.footer i:hover {
+  color: #777;
+}
+
+.footer p {
+  color: white;
+  margin-top: 20px;
+}
+
+.footer p a {
+  color: white;
+  cursor: pointer;
+}
+
+.footer p a:hover {
+  color: rgb(12, 182, 12);
+}
+
+@media screen and (max-width: 1000px) {
+  .homepage-1 {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .homepage-1 .logo {
+    margin-left: 25%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .homepage-2 .ABOUT h2 {
+    text-align: center;
+  }
+
+  .homepage-2 .ABOUT i {
+    text-align: center;
+  }
+
+  .homepage-2 .ABOUT p {
+    width: auto;
+    word-wrap: break-word;
+    text-align: center;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .homepage-2 .name h4 {
+    margin-left: 50px;
+  }
+
+  .homepage-2 .name .image-2 p {
+    width: auto;
+    width: 300px;
+    flex-wrap: wrap;
+  }
+
+  .homepage-2 .partners {
+    flex-direction: column;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+  }
+
+  .homepage-2 .image-3 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .contact {
+    margin-left: 50px;
+  }
+
+  .footer {
+    height: 300px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .homepage-1 .logo {
+    margin-left: 25%;
+  }
+
+  .homepage-3 .Animal-images .image-1 {
+    flex-wrap: wrap;
+  }
+
+  .homepage-3 .Animal-images-2 .image-1 {
+    flex-wrap: wrap;
+  }
+
+  .contact .location .inputs #input-1 {
+    width: 200px;
+  }
+
+  .contact .location .inputs #input-2 {
+    width: 200px;
+  }
+
+  .contact .location .inputs #input-3 {
+    width: 200px;
+  }
+
+  .contact .location .inputs .btn-2 {
+    margin-left: auto;
+  }
+
+  .footer {
+    height: 300px;
+    width: 100%;
+  }
+}

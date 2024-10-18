@@ -1,0 +1,356 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.homepage {
+  width: 100%;
+  height: 90vh;
+  background-image: url("/images/img-2.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  padding: 0 25px;
+  background-color: white;
+  height: 55px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.home .child-1 {
+  color: black;
+  text-decoration: none;
+  letter-spacing: 4px;
+  font-size: 15px;
+  border: 1px solid transparent;
+  width: 233px;
+  height: 27px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.home .child-1:hover {
+  background-color: rgb(206, 210, 213);
+}
+
+.menu {
+  font-size: 15px;
+  padding-right: 50px;
+}
+
+.menu a {
+  letter-spacing: 4px;
+  text-decoration: none;
+  color: black;
+  padding: 0 15px;
+}
+
+.menu .child {
+  border: 1px solid transparent;
+  display: inline;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.menu .child:hover {
+  background-color: rgb(206, 210, 213);
+}
+
+.le h1 {
+  color: rgb(103, 102, 101);
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 35px;
+  letter-spacing: 5px;
+  position: absolute;
+  bottom: 100px;
+  left: 30px;
+}
+
+.homepage-2 {
+  /* height: 90vh; */
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  margin-top: 80px;
+}
+
+.img-2 {
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.About h1 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.About h5 {
+  font-family: "Playfair Display";
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.About .p-1 {
+  width: 550px;
+  padding-left: 50px;
+  line-height: 25px;
+}
+
+.About .p-2 {
+  width: 550px;
+  padding-left: 50px;
+  line-height: 25px;
+  color: #757575;
+}
+
+.About span {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  color: #000 !important;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.hr-1 {
+  margin-top: 50px;
+  width: 80%;
+  position: relative;
+  left: 120px;
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+
+.homepage-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.Menu {
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+.Menu h1 {
+  text-align: center;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+.Menu h4 {
+  margin-top: 50px;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+.Menu .p-3 {
+  margin-top: 20px;
+  color: #757575;
+}
+
+.img-3 {
+  margin-top: 80px;
+}
+
+.hr-2 {
+  width: 80%;
+  position: relative;
+  top: 50px;
+  left: 120px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+.homepage-4 {
+  height: 100vh;
+}
+.Contact h1 {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  letter-spacing: 5px;
+  /* padding-left: 130px; */
+  margin-top: 100px;
+}
+.Contact {
+  padding-left: 130px;
+}
+
+.Contact .p-4 {
+  font-family: "Playfair Display";
+  width: 1100px;
+  /* padding-left: 130px; */
+  padding-top: 50px;
+}
+
+.Contact h3 {
+  color: #607d8b;
+  /* padding-left: 130px; */
+  padding-top: 20px;
+}
+
+.Contact .p-5 {
+  /* padding-left: 130px; */
+  padding-top: 20px;
+}
+
+.Contact input {
+  width: 85%;
+  height: 50px;
+  /* margin-left: 130px; */
+  margin-top: 20px;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid #eee;
+  border-left: none;
+  padding-left: 15px;
+}
+
+.btn {
+  width: 140px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 130px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+}
+
+.btn a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover {
+  background-color: #ccc;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 100px;
+}
+
+.footer p {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.footer p a {
+  color: black;
+}
+
+.footer p a:hover {
+  color: rgb(12, 182, 12);
+}
+
+@media screen and (max-width: 1240px) and (min-height: 100px) {
+  .homepage {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .homepage .home {
+    width: 100%;
+    height: 100px;
+  }
+
+  .homepage .home .child-1 {
+    font-size: 25px;
+    padding-bottom: 30px;
+  }
+
+  .homepage .home .menu a {
+    font-size: 25px;
+  }
+
+  .le h1 {
+    margin-bottom: 50px;
+    padding-left: 200px;
+  }
+
+  .homepage-2 {
+    flex-wrap: wrap;
+    margin-right: 100px;
+  }
+
+  .homepage-2 .About {
+    text-align: center;
+    margin-right: 50px;
+  }
+
+  .homepage-2 .About h5 {
+    font-size: 25px;
+  }
+
+  .homepage-2 .About .p-1 {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  .homepage-2 .About .p-2 {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  .homepage-3 {
+    flex-wrap: wrap;
+  }
+
+  .homepage-3 .Menu {
+    margin-left: 50px;
+    text-align: center;
+  }
+
+  .homepage-4 {
+    height: 65vh;
+  }
+
+  .homepage-4 .Contact h1 {
+    margin-left: 25%;
+  }
+
+  .homepage-4 .Contact .p-4 {
+    width: 70%;
+    text-align: center;
+  }
+
+  .homepage-4 .Contact .p-5 {
+    text-align: center;
+    margin-right: 100px;
+  }
+
+  .homepage-4 .Contact input {
+    width: 60%;
+    /* margin-left: 200px; */
+    padding-left: 15px;
+  }
+
+  .homepage-4 .Contact .btn {
+    width: 30%;
+    /* margin-left: 270px; */
+  }
+  .footer {
+    margin-top: 0%;
+  }
+}
